@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	  </head>
+<body>
+	<br/><br/><br/><br/><br/><br/>
+Basic Navbar
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</div>
+		</nav>
+Navbars with Dropdowns
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		Dropdown
+		</a>
+		<div class="dropdown-menu" aria-labelledby="Preview">
+		<a class="dropdown-item" href="#">Dropdown Link 1</a>
+		<a class="dropdown-item" href="#">Dropdown Link 2</a>
+		<a class="dropdown-item" href="#">Dropdown Link 3</a>
+		</div>
+		</li>
+		</ul>
+		</div>
+		</nav>
+Current Page
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item active">
+		<a class="nav-link" href="#">Link 2 <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+Navbar with Form Controls
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav mr-auto">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		</ul>
+		
+		<!-- Search -->
+		<form class="form-inline" role="search">
+		<input type="text" class="form-control">
+		<button type="submit" class="btn btn-secondary">Search</button>
+		</form>
+		</nav>
+Alignment
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse justify-content-end" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+Colors
+Primary Color, Light
+<br/>
+<nav class="navbar navbar-expand-sm navbar-light bg-primary">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+Primary Color, Dark
+<br/>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+Custom Color
+<br/>
+<nav class="navbar navbar-expand-sm navbar-dark" style="background: coral;">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		
+		</nav>
+Fixed Navbars
+<br/>
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+		
+		<!-- Set body height so that scrollbars grow -->
+		<style scoped>
+		body {
+		height:2000px;
+		background-image:url('/pix/samples/bubble1.gif');
+		}
+		</style>
+Fixed Bottom
+<br/>
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Logo</a>
+		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 1</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 2</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#">Link 3</a>
+		</li>
+		</ul>
+		</nav>
+		
+		<!-- Set body height so that scrollbars grow -->
+		<style scoped>
+		body {
+		height:2000px;
+		background-image:url('/pix/samples/bubble2.gif');
+		}
+		</style>
+
+</body>
+</html>

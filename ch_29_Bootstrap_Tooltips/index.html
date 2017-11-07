@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<title>Bootstrap Example</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+			  </head>
+			  <script>
+					$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})
+					</script>
+<body>
+  	<div class="container">
+  		
+		  <h1>Initialization</h1>
+		  <p style="margin:40px;">Check out my <a target="_blank" href="https://www.quackit.com/css/grid/tutorial/" data-toggle="tooltip" data-placement="top" title="Build advanced layouts easily with CSS!">Grid tutorial</a>, as you never know when you might need it!</p>
+	  </div>
+	  
+	  <h1>Tooltips on Buttons</h1>
+	  <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Top shoes" style="margin:20px;">
+			Shoes
+		  </button>
+
+		  <h1>Tooltip Position</h1>
+		  <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Top shoes" style="margin:20px;">
+				Shoes
+			  </button>
+			  <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Right boot" style="margin:20px;">
+				Boots
+			  </button>
+			  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="Bottom uggs" style="margin:20px;">
+				Ugg
+			  </button>
+			  <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="left" title="Left sock" style="margin:20px;">
+				Socks
+			  </button>
+</body>
+</html>

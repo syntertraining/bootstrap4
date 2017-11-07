@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<title>Bootstrap Example</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+			  </head>
+			  <script>
+					$(function () {
+					  $('[data-toggle="popover"]').popover()
+					})
+					</script>
+<body>
+  	<div class="container">
+		  <h1>Basic Popover</h1>
+		  <button type="button" class="btn btn-primary" data-toggle="popover" data-content="Mountaineering boots are a type of footwear used in the sport of mountain climbing." style="margin:20px;">
+				Click me
+			  </button>
+		  <h1>Popover Position</h1>
+		  <div style="text-align:center">
+				<button type="button" class="btn btn-primary" data-toggle="popover" data-placement="right" data-content="Chelsea boots are close-fitting, ankle-high boots with an elastic side panel." style="margin:40px;">
+				  Click me
+				</button>
+				<button type="button" class="btn btn-primary" data-toggle="popover" data-placement="bottom" data-content="Dress boots are short leather boots worn by men." style="margin:40px;">
+				  Click me
+				</button>
+				<button type="button" class="btn btn-primary" data-toggle="popover" data-placement="top" data-content="Cowboy boots are for cowboys." style="margin:40px;">
+				  Click me
+				</button>
+				<button type="button" class="btn btn-primary" data-toggle="popover" data-placement="left" data-content="Ski boots are for skiing... duh!" style="margin:40px;">
+				  Click me
+				</button>
+				</div>
+		  <h1>Popover Title</h1>
+		  <button type="button" class="btn btn-primary" title="Jodhpur Boot" data-toggle="popover" data-placement="right" data-content="An ankle boot designed as a riding boot with a rounded toe and a low heel." style="margin:40px;">
+				Click me
+			  </button>
+
+			  <h1>Closing Popovers</h1>
+			  <button type="button" class="btn btn-primary" data-toggle="popover" data-trigger="focus" data-placement="right" data-content="Now click somewhere else">
+					Click me
+				  </button>
+
+				  <h1>Popovers on Hover</h1>
+				  <button type="button" class="btn btn-primary" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Now hover out.">
+						Hover over me
+					  </button>
+
+  	</div>
+</body>
+</html>
